@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Jumbotron></Jumbotron>
     <img alt="Vue logo" src="./assets/logo.png">
     <Title></Title>
   </div>
@@ -7,11 +8,13 @@
 
 <script>
 import Title from './components/Title.vue'
+import Jumbotron from './components/Jumbotron.vue'
 
 export default {
   name: 'App',
   components: {
-    Title
+    Title,
+    Jumbotron
   }
 }
 </script>
