@@ -15,7 +15,7 @@
         </p>
 
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <button class="btn btn-primary btn-lg" href="#" role="button">Learn more</button>
         </p>
   </div>
 </template>
